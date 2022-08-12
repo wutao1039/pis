@@ -24,7 +24,4 @@ jobs:
         run: |
           git config --global user.name "wutao"
           git config --global user.email "889100nm@163.com"
-          git init
-          git add -A
-          git commit -m "通过GithubAction自动构建"
           git push -f "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" master:gh-pages
