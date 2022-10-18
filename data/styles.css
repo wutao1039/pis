@@ -109,3 +109,17 @@
 }
 .flow_shape {
 }
+.paragraph {
+  text-align:left;
+}
+.heading_1 {
+  font-family:'Arial Negreta', 'Arial';
+  font-weight:700;
+  font-size:32px;
+  text-align:left;
+}
+.shape {
+}
+.image1 {
+  color:#000000;
+}
